@@ -1,12 +1,13 @@
 <script lang="ts">
     import Currency from "$lib/Currency/Currency.svelte";
+    import TitleSmall from "$lib/Text/TitleSmall.svelte";
 
     export let variant : "platinum" | "gold" | "silver" | "bronze";
     export let amountOfMoney : Number;
 </script>
 
 <div class="currency-amount">
-    <h4>{amountOfMoney}</h4>
+    <TitleSmall text={amountOfMoney}/>
     <Currency variant={variant}/>
 </div>
 

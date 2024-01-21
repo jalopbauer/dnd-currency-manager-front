@@ -1,8 +1,7 @@
 <script>
-    import Header from "$lib/Header/Header.svelte";
+    import Header from "$lib/Text/Header.svelte";
     import { goto } from "$app/navigation";
     import Cookies from 'js-cookie';
-    import "../../../styles.css";
 
     let username = "";
     let password = "";

@@ -29,41 +29,8 @@
 
 	/*Other constants*/
 	--border-radius: 8px;
-
-}
-
-h1 {
-	margin:0;
-	color: var(--greyscale-500);
-	font-family: var(--font);
-	font-size: var(--header);
-}
-
-h2 {
-	margin:0;
-	color: var(--greyscale-500);
-	font-family: var(--font);
-	font-size: var(--title-l);
-}
-
-
-h3 {
-	margin:0;
-	color: var(--greyscale-500);
-	font-family: var(--font);
-	font-size: var(--title-m);
-}
-
-h4 {
-	margin:0;
-	color: var(--greyscale-500);
-	font-family: var(--font);
-	font-size: var(--title-s);
 }
 
 body {
 	margin: 0;
-	color: var(--greyscale-500);
-	font-family: var(--font);
-	font-size: var(--body);
 }

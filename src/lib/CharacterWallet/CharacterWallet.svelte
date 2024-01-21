@@ -1,5 +1,6 @@
 <script lang="ts">
     import WalletMoney from "$lib/WalletMoney/WalletMoney.svelte";
+    import TitleLarge from "$lib/Text/TitleLarge.svelte";
 
     export let characterName : string;
     export let amountOfPlatinum : Number;
@@ -10,7 +11,7 @@
 </script>
 
 <div class="character-wallet">
-    <h2> { characterName }</h2>
+    <TitleLarge text={characterName}/>
     <WalletMoney
         amountOfPlatinum = { amountOfPlatinum }
         amountOfGold = { amountOfGold }

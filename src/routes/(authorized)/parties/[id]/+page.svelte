@@ -1,6 +1,6 @@
 <script>
-    import "../../../styles.css"
-    import Header from "$lib/Header/Header.svelte";
+    import "../../../app.css"
+    import Header from "$lib/Text/Header.svelte";
     import {page} from "$app/stores";
     import CharacterWallet from "$lib/CharacterWallet/CharacterWallet.svelte";
 
